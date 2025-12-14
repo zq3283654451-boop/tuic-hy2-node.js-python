@@ -1,3 +1,5 @@
+
+
 # 1.Hysteria2在Nodejs/Python一键脚本极简部署（Pterodactyl 翼龙面板）
 
 * 更新自适应端口，无需再手动设置
@@ -27,5 +29,15 @@ curl -Ls https://raw.githubusercontent.com/eishare/tuic-hy2-node.js-python/main/
 
 ```
 curl -Ls https://raw.githubusercontent.com/eishare/tuic-hy2-node.js-python/main/tuic.sh | sed 's/\r$//' | bash
+
+二、申请VPS服务器并完成免费节点部署
+
+创建服务器软件选择：
+
+node.js generic
+修改启动选项（Startup）变量参数
+
+bash
+
 ```
 
